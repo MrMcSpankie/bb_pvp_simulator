@@ -78,6 +78,12 @@ var SkillDatabase = {
         skillRange: 4, maxProbability: 50
     },
 
+    111 : {
+        name: "Whorl of Wisdom", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 1, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 16, maxProbability: 30, ward: "MAGICAL"
+    },
+
     112 : {
         name: "Whorl of Attack", skillType: 2, skillFunc: 3, skillCalcType: 1, 
         skillFuncArg1: 1, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
@@ -94,6 +100,13 @@ var SkillDatabase = {
         name: "Slashing Blade", skillType: 2, skillFunc: 3, skillCalcType: 1, 
         skillFuncArg1: 1, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
         skillRange: 8, maxProbability: 30, ward: "PHYSICAL", contact: 1
+    },
+
+    119 : {
+        name: "Flash of Rage", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 0.9, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 17, maxProbability: 30, ward: "MAGICAL",
+        description: "Call down six random lightning bolts on foes."
     },
 
     120 : {
@@ -168,8 +181,16 @@ var SkillDatabase = {
     142 : {
         name: "Barrage", skillType: 2, skillFunc: 3, skillCalcType: 1, 
         skillFuncArg1: 0.9, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
-        skillRange: 20, maxProbability: 30, ward: "PHYSICAL"
+        skillRange: 20, maxProbability: 30, ward: "PHYSICAL",
+        description: "Deal physical damage to five random targets."
     },
+
+    144 : { 
+	name: "Windcrush", skillType: 2, skillFunc: 4, skillCalcType: 2,  
+	skillFuncArg1: 1, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0,  
+        skillRange: 19, maxProbability: 30, ward: "MAGICAL",
+	description: "Deal heavy damage to four foes." 
+	},  
 
     154: {
         name: "Cloak & Dagger 2", skillType: 5, skillFunc: 14, skillCalcType: 1,
@@ -279,6 +300,13 @@ var SkillDatabase = {
         skillRange: 16, maxProbability: 30, ward: "PHYSICAL"
     },
 
+    234 : {
+        name: "Lightning Spirits", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 1.15, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 20, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal WIS-based damage to five random foes."
+    },
+
     236: {
         name: "Flash", skillType: 2, skillFunc: 4, skillCalcType: 2,
         skillFuncArg1: 2.25, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0,
@@ -359,6 +387,20 @@ var SkillDatabase = {
         skillFuncArg1: 2.05, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
         skillRange: 16, maxProbability: 30, ward: "MAGICAL",
         description: "Deal massive AGI-based damage to three random foes regardless of position."
+    },
+    
+    275 : {
+        name: "Blinding Light", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 1.7, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 16, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal heavy WIS-based damage to three random foes, regardless of position."
+    },
+
+    276 : {
+        name: "Divine Grief", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 2, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 23, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal Massive WIS-based damage to two random foes, regardless of position."
     },
 
     280: {
@@ -525,6 +567,13 @@ var SkillDatabase = {
         skillRange: 17, maxProbability: 30, ward: "MAGICAL",
         description: "Deal WIS-based damage to six random foes, regardless of position."
     },
+    
+    361: {
+        name: "Resplendent Light", skillType: 2, skillFunc: 3, skillCalcType: 1,
+        skillFuncArg1: 1, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0,
+        skillRange: 20, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal ATK-based damage to five random foes."
+    },    
 
     362 : {
         name: "Rite of Vengeance", skillType: 2, skillFunc: 3, skillCalcType: 1, 
@@ -614,6 +663,13 @@ var SkillDatabase = {
         skillRange: 3, maxProbability: 70
     },
 
+    412 : {
+        name: "Fires of Thirst", skillType: 2, skillFunc: 4, skillCalcType: 2,
+        skillFuncArg1: 1.2, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0,
+        skillRange: 20, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal WIS-based damage to five random foes, regardless of position."
+    },
+
     416 : {
         name: "Bone Smasher", skillType: 2, skillFunc: 4, skillCalcType: 2,
         skillFuncArg1: 1.5, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0,
@@ -646,6 +702,20 @@ var SkillDatabase = {
         skillFuncArg1: 1.5, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
         skillRange: 16, maxProbability: 30, ward: "PHYSICAL"
     },
+    
+    440 : {
+        name: "Thunderstroke", skillType: 2, skillFunc: 4, skillCalcType: 3, 
+        skillFuncArg1: 2, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 23, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal massive AGI-based damage to two random foes, ignoring position."
+    },
+    
+    441 : {
+        name: "Bolt of Judgment", skillType: 2, skillFunc: 4, skillCalcType: 2, 
+        skillFuncArg1: 2.15, skillFuncArg2: 0, skillFuncArg3: 0, skillFuncArg4: 0, skillFuncArg5: 0, 
+        skillRange: 23, maxProbability: 30, ward: "MAGICAL",
+        description: "Deal massive WIS-based damage to two random foes, ignoring position."
+    },    
 
     437 : {
         name: "Mjolnir", skillType: 2, skillFunc: 4, skillCalcType: 1,
